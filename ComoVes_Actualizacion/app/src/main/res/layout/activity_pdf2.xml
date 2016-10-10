@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.eduardoapps.comoves.PDF"
+    android:background="@drawable/fondo"
+
+    >
+
+
+
+    <com.github.barteksc.pdfviewer.PDFView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/pdf2"
+        android:gravity="center">
+        <TextView
+            android:background="@color/Blanco"
+            android:id="@+id/showPage2"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignTop="@+id/scrollPage"
+            android:layout_marginBottom="20dp"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:alpha="30"
+
+            />
+        <SeekBar
+            android:id="@+id/scrollPage2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+
+            />
+
+    </com.github.barteksc.pdfviewer.PDFView>
+
+
+
+
+</RelativeLayout>

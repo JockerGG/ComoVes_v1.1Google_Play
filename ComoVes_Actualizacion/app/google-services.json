@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "238275965641",
+    "firebase_url": "https://comoves-629c0.firebaseio.com",
+    "project_id": "comoves-629c0",
+    "storage_bucket": "comoves-629c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238275965641:android:58f6d1ab8eba2f35",
+        "android_client_info": {
+          "package_name": "com.eduardoapps.comoves"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238275965641-k9d6hggrms94hf2s735ptos141u32u2j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLh1lSXuZUZ75gzQKiujC6YrhURDfhTkU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

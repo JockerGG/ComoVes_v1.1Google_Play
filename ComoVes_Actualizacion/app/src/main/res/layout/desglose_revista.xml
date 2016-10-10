@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:scrollbarThumbVertical="@android:color/holo_red_light"
+    android:background="@color/Blanco"
+    android:fadeScrollbars="false"
+    tools:context="com.eduardoapps.comoves.DesgloseRevista"
+    android:scrollbarSize="3dip"
+    android:fillViewport="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="7dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/portada_desglose"
+                android:layout_width="140dp"
+                android:layout_height="220dp"
+                android:background="@color/Negro"
+                android:scaleType="centerCrop"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                android:paddingTop="30dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/boton_pdf"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/pdf"
+                        android:layout_marginBottom="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:paddingTop="15dp"
+                        android:paddingLeft="10dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/Negro"
+                        android:fontFamily="sans-serif-light"
+                        android:text="Ver en PDF"/>
+                </LinearLayout>
+
+                <!--<LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/boton_agregar_revista"
+                        android:scaleType="centerInside"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                       android:background="@color/Blanco"/>
+
+                    <TextView
+                        android:id="@+id/anadidas"
+                        android:layout_width="wrap_content"
+                        android:paddingTop="15dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/Negro"
+                        android:fontFamily="sans-serif-light"
+                        android:text="Agregar a Mis Lecturas"/>
+                </LinearLayout>
+                -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/boton_misLecturas"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/colorlecturas"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:paddingTop="15dp"
+                        android:paddingLeft="1dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/Negro"
+                        android:fontFamily="sans-serif-light"
+                        android:text="Ir a 'Mis Lecturas'"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/titulo_desglose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textColor="@color/Negro"
+                android:text="TITULO DE LA REVISTA">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/año_desglose"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/Negro"
+                    android:textSize="15dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="Año"
+                    />
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:background="@drawable/vote3"/>
+
+                <TextView
+                    android:id="@+id/voto_desglose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:textSize="15dp"
+                    android:text="Voto"
+                    android:fontFamily="sans-serif-light"
+
+                    android:textColor="@color/Negro"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+
+
+
+                <TextView
+                    android:id="@+id/descripcion_desglose"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/Negro"
+                    android:text="Descripcion revista"
+                    android:fontFamily="sans-serif-light"
+
+
+                    />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/te_recomendamos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Negro"
+            android:textSize="20dp"
+            android:paddingTop="15dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.RecyclerView
+                android:scrollbarThumbVertical="@android:color/holo_red_light"
+                android:id="@+id/recomendaciones"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="horizontal"
+                android:scrollbarStyle="outsideInset"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
